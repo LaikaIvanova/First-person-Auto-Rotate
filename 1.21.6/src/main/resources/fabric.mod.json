@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "first-person-auto-rotate",
+	"version": "${version}",
+	"name": "First-person Auto Rotate",
+"description": "Keeps the player's body smoothly aligned with the camera direction to reduce motion sickness when using first-person model mods.",
+	"authors": [
+		"Laika Ivanova"
+	],
+	"contact": {
+		"homepage": "https://laikaivanova.com/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/betterbodyangle/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.laikaivanova.BetterBodyAngle"
+		],
+		"client": [
+			"com.laikaivanova.BetterBodyAngleClient"
+		]
+	},
+
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": ">=1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
